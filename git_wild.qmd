@@ -76,6 +76,7 @@ ggplot(data = diamonds, aes (x = price, y = carat)) +
   geom_smooth()
 
 
+
 ```
 
 ```{r partner 2}
