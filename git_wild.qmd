@@ -8,7 +8,6 @@ execute:
   message: false
 ---
 
-
 ## STEP 5: No merge conflicts!
 
 ```{r partner 1}
@@ -20,9 +19,11 @@ execute:
 ```
 
 ```{r partner 2}
-### In this code chunk, start with the diamonds dataset (built in to
-### ggplot2 package) and create a subset based on filtering, e.g., 
-### size greater than 1 carat or cut is "Ideal"
+
+
+library(tidyverse)
+library(ggplot2)
+summary(diamonds)
 
 
 
@@ -47,4 +48,3 @@ execute:
 
 
 ```
-
