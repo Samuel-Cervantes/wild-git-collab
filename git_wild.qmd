@@ -59,14 +59,5 @@ ggplot(data = diamonds, aes (x = cut, y = carat)) +
 ```
 
 
-```{r partner 2}
-### In this code chunk, start with the diamonds dataset (built in to
-### ggplot2 package) and create a subset based on filtering, e.g., 
-### size greater than 1 carat or cut is "Ideal"
-
-
-
-```
-
 
 
